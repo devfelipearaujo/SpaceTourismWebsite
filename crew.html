@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./assets/css/reset.css">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="icon" href="./assets/img/favicon-32x32.png">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   <title>Space tourism website</title>
+</head>
+<body>
+   <main class="principal-destination">
+      <header class="cabecalho__container">
+         <a href="#"><img class="logo" src="./assets/img/shared/logo.svg" alt=""></a>
+         <div class="menu">
+            <img class="menu__hamburger" src="./assets/img/shared/icon-hamburger.svg" alt="menu hamburger">
+            <nav>
+               <ul class="menu__lista">
+                  <li><a class="menu__link" href="index.html"><span class="menu__span">00</span>home</a></li>
+                  <li><a class="menu__link" href="destination.html"><span class="menu__span">01</span>destination</a></li>
+                  <li><a class="menu__link" href="crew.html"><span class="menu__span">02</span>crew</a></li>
+                  <li><a class="menu__link" href="technology.html"><span class="menu__span">03</span>technology</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+   <section class="destination section">
+      <div class="sections__titulo-container">
+         <span class="sections__titulo__numero">02</span>
+         <h2 class="sections__titulo">meet your crew</h1>
+      </div>
+      <div class="swiper__container">
+         <div class="crew__left__column left__column">
+            <!-- Slider main container -->
+            <div class="swiper">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img class="swiper__image" src="./assets/img/crew/image-douglas-hurley.png" alt=""></div>
+                  <div class="swiper-slide"><img class="swiper__image" src="./assets/img/crew/image-mark-shuttleworth.png" alt=""></div>
+                  <div class="swiper-slide">Slide 3</div>
+                  ...
+               </div>
+            </div>
+         </div>
+         <!-- If we need pagination -->
+         <div class="swiper-pagination" id="swiper-pagination"></div>
+      </div>
+         <div class="right__column">
+            <nav>
+               <ul class="destination__nav__lista">
+                  <li><button class="destination__nav__item destination__nav__item-ativo">moon</button></li>
+                  <li><button class="destination__nav__item">mars</button></li>
+                  <li><button class="destination__nav__item">europa</button></li>
+                  <li><button class="destination__nav__item">titan</button></li>
+               </ul>
+            </nav>
+            <div class="planeta moon">
+               <h3 class="sections__subtitulo">moon</h3>
+               <p class="sections__texto destination__texto">See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+               <p class="info__texto">avg. distance <br><span class="info__valores">384,400 km</span></p>
+               <p class="info__texto">est. travel time <br><span class="info__valores">3 days</span></p>
+            </div>
+            <div class="planeta mars hidden">
+               <h3 class="sections__subtitulo">mars</h3>
+               <p class="sections__texto destination__texto">Don't forget to pack your hiking boots. You'll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It's two and a half times the size of Everest!</p>
+               <p class="info__texto">avg. distance <br><span class="info__valores">225 mil. km</span></p>
+               <p class="info__texto">est. travel time <br><span class="info__valores">9 months</span></p>
+            </div>
+            <div class="planeta europa hidden">
+               <h3 class="sections__subtitulo">europa</h3>
+               <p class="sections__texto destination__texto">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover's dream. With an icy surface, it's perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+               <p class="info__texto">avg. distance <br><span class="info__valores">628 mil. km</span></p>
+               <p class="info__texto">est. travel time <br><span class="info__valores">3 years</span></p>
+            </div>
+            <div class="planeta titan hidden">
+               <h3 class="sections__subtitulo">titan</h3>
+               <p class="sections__texto destination__texto">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+               <p class="info__texto">avg. distance <br><span class="info__valores">1.6 bil. km</span></p>
+               <p class="info__texto">est. travel time <br><span class="info__valores">7 years</span></p>
+            </div>
+         </div>
+       </>
+   </section>
+   </main>
+</body>
+<script src="./main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>const swiper = new Swiper('.swiper', {
+   spaceBetween: 10,
+   slidesPerView: 1,
+   // Optional parameters
+   direction: 'horizontal',
+   loop: true,
+ 
+   // If we need pagination
+   pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+ 
+   // // Navigation arrows
+   // navigation: {
+   //   nextEl: '.swiper-button-next',
+   //   prevEl: '.swiper-button-prev',
+   // },
+ });</script>
+</html>

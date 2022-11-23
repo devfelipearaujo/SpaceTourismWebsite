@@ -1,43 +1,76 @@
+/* mobile: 375px / tablet: 768px / desktop: 1300px */
+
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
-/* mobile: 375px
-tablet: 768 px
-desktop: 1300px */
+
+@import url(./assets/css/home.css);
+@import url(./assets/css/cabecalho.css);
+@import url(./assets/css/destination.css);
+@import url(./assets/css/crew.css);
+@import url(./assets/css/swiper.css);
+@import url(./assets/css/technology.css);
+
 :root {
    /* Cores */
    --branco:#FFFFFF;
-   --azul-esuro: #0B0D17;
+   --azul-escuro: #0B0D17;
    --azul-claro: #D0D6F9; 
+   --cinza: #383B4B;
+   --swiper-theme-color: pink;
+
 
    /* Font-Families */
    --ff-primaria: 'Bellefair', serif;
-   --ff--secundaria: 'Barlow Condensed', sans-serif;
+   --ff--secundaria: 'Barlow', sans-serif;
+   --ff--terciaria: 'Barlow Condensed', sans-serif;
 
    /* Font-Sizes (Mobile) */
    --fs-nav: 16px; /*Nav menu*/
-   --fs-home-titulo-maior: 80px; /*Homepage título*/
    --fs-home-titulo-menor: 16px; /*Homepage título menor*/
+   --fs-home-titulo-maior: 80px; /*Homepage título*/
    --fs-texto-regular: 15px; /*Body text*/
+   --fs-home-btn: 20px; /*Home btn*/
    --fs-sections-titulo: 16px; /*Outras sections título*/
    --fs-tech-subtitulo: 14px; /*Tech section subtítulo*/
    --fs-planetas-nav: 14px; /*Destination nav*/
    --fs-planetas: 56px; /*Nomes dos planetas*/
    --fs-destination-info-texto: 14px; /*Informações dos destinos*/
-   --fs-destiantion-info-valores: 28px; /*Valores abaixo das informações dos destinos*/
+   --fs-destination-info-valores: 28px; /*Valores abaixo das informações dos destinos*/
    --fs-crew-cargos: 16px; /*Crew cargos & Tech nav numeros*/
    --fs-nomes: 24px; /*Nomes nas sections Crew & Tech*/
    
 }
 
-body {
-   font-family: var(--ff-primaria);
-}
+/* ------ Global Styles ------ */
+
+   * {
+      margin: 0;
+      box-sizing: border-box;
+   }
+
+   p {
+      color: var(--azul-claro);
+   }
+
+   body {
+      font-family: var(--ff-primaria);
+   }
+
+   button {
+      border: none;
+      background-color: transparent;
+      font-family: inherit;
+      padding: 0;
+      cursor: pointer;
+   }
+/* --------------------------- */
 
 @media screen and (min-width: 768px) {
 :root {
    --fs-nav: 14px;
-   --fs-home-titulo-maior: 150px;
    --fs-home-titulo-menor: 20px;
+   --fs-home-titulo-maior: 150px;
    --fs-texto-regular: 16px;
    --fs-sections-titulo: 20px;
    --fs-tech-subtitulo: 16x;

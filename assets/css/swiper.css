@@ -1,0 +1,21 @@
+.swiper {
+   width: 327px;
+   height: 223px;
+   margin-top: 2rem;
+ }
+
+ .swiper__image {
+   width: 177px;  
+   height: 222px;
+ }
+
+#swiper-pagination {
+   position: initial;
+   bottom: 0;
+   margin-top: 2rem;
+}
+
+.swiper .swiper-pagination-bullet-active {
+   color: black;
+   background: yellow;
+}

@@ -1,21 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="icon" href="./assets/img/favicon-32x32.png">
-  <title>Space tourism website</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./assets/css/reset.css">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="icon" href="./assets/img/favicon-32x32.png">
+   <title>Space tourism website</title>
 </head>
 <body>
- <main>
-  <nav></nav>
-  <section></section>
-  <section></section>
-  <section></section>
-  <section></section>
- </main>
+   <main class="principal-home">
+      <header class="cabecalho__container">
+         <a href="#"><img class="logo" src="./assets/img/shared/logo.svg" alt=""></a>
+         <div class="menu">
+            <img class="menu__hamburger" src="./assets/img/shared/icon-hamburger.svg" alt="menu hamburger">
+            <nav>
+               <ul class="menu__lista">
+                  <li><a class="menu__link" href="index.html"><span class="menu__span">00</span>home</a></li>
+                  <li><a class="menu__link" href="destination.html"><span class="menu__span">01</span>destination</a></li>
+                  <li><a class="menu__link" href="crew.html"><span class="menu__span">02</span>crew</a></li>
+                  <li><a class="menu__link" href="technology.html"><span class="menu__span">03</span>technology</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+   <section class="section">
+      <div class="container">
+         <div class="home__left__column left__column">
+            <h1 class="home__titulo">so, you want to travel to <br> <span class="home__titulo-maior">space</span></h1>
+            <p class="sections__texto">Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!</p>
+         </div>
+         <div class="home__right__column right__column">
+            <a class="home__btn" href="destination.html">explore</a>
+         </div>
+       </div>
+   </section>
+   </main>
 </body>
+<script src="./main.js"></script>
 </html>

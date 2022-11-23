@@ -1,0 +1,86 @@
+.principal-destination {
+   background: url(../img/destination/background-destination-mobile.jpg) center/ cover no-repeat ;
+   height: 100vh;
+}
+.sections__titulo-container {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   font-family: var(--ff--terciaria);
+   letter-spacing: 2.7px;
+}
+
+.sections__titulo__numero {
+   color: var(--branco);
+   font-weight: 700;
+   opacity: .25;
+}
+
+.sections__titulo {
+   font-size: var(--fs-sections-titulo);
+   color: var(--branco);
+   text-transform: uppercase;
+}
+
+.right__column {
+   text-align: center;
+}
+
+.destination__imagem {
+   width: 170px;
+   margin-top: 2rem;
+}
+
+.destination__nav__lista {
+   display: flex;
+   gap: 1.5rem;
+   justify-content: center;
+   margin: 1.5rem 0 2rem 0;
+}
+
+.destination__nav__item {
+   font-size: var(--fs-planetas-nav);
+   font-family: var(--ff--terciaria);
+   color: var(--azul-claro);
+   letter-spacing: 2.36px;
+   text-transform: uppercase;
+}
+
+.destination__nav__item-ativo {
+   padding-bottom: .5rem;
+   border-bottom: 3px solid white;
+}
+
+.sections__subtitulo{
+   font-size: var(--fs-planetas);
+   color: var(--branco);
+   margin-bottom: .8rem;
+   text-transform: uppercase;
+}
+
+.destination__texto {
+   border-bottom: 1px solid var(--cinza);
+   padding-bottom: 2rem;
+}
+
+.info__texto {
+   font-size: var(--fs-destination-info-texto);
+   color: var(--azul-claro);
+   text-transform: uppercase;
+   letter-spacing: 2.36px;
+   margin-top: 2rem;
+}
+
+.planeta .info__texto:last-child {
+   margin-top: calc( 2rem - var(--fs-destination-info-valores));
+}
+
+.info__valores {
+   font-size: var(--fs-destination-info-valores);
+   color: var(--branco);
+   line-height: calc(100% + 2rem)
+}
+
+.hidden {
+   display: none;
+}
