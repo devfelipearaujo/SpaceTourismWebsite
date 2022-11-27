@@ -1,3 +1,24 @@
+.principal-crew {
+   background: url(../img/crew/background-crew-mobile.jpg) center/ cover no-repeat ;
+   height: 100vh;
+}
+
 .crew__left__column {
    border-bottom: 1px solid var(--cinza);
+}
+
+.crew__subtitulo {
+   font-size: var(--fs-crew-cargos);
+   color: var(--branco);
+   opacity: 0.5;
+   margin-top: 2rem;
+   margin-bottom: .5rem;
+   text-transform: uppercase;
+}
+
+.crew__names {
+   font-size: var(--fs-nomes);
+   color: var(--branco);
+   margin-bottom: 1rem;
+   text-transform: uppercase;
 }

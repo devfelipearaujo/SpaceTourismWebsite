@@ -17,7 +17,6 @@
    --azul-escuro: #0B0D17;
    --azul-claro: #D0D6F9; 
    --cinza: #383B4B;
-   --swiper-theme-color: pink;
 
 
    /* Font-Families */
@@ -39,7 +38,11 @@
    --fs-destination-info-valores: 28px; /*Valores abaixo das informações dos destinos*/
    --fs-crew-cargos: 16px; /*Crew cargos & Tech nav numeros*/
    --fs-nomes: 24px; /*Nomes nas sections Crew & Tech*/
-   
+
+   /*Swiper Custom Css*/
+   --swiper-pagination-bullet-inactive-opacity: .17;
+   --swiper-pagination-color: #FFFFFF;
+   --swiper-pagination-bullet-inactive-color: #FFFFFF;
 }
 
 /* ------ Global Styles ------ */

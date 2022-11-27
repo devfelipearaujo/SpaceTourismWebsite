@@ -4,18 +4,29 @@
    margin-top: 2rem;
  }
 
- .swiper__image {
+.swiper__image {
    width: 177px;  
    height: 222px;
- }
+}
+
+.swiper__image-1 {
+   width: 177px;  
+}
+
+.swiper__image-2 {
+   width: 154px;  
+}
+
+.swiper__image-3 {
+   width: 180px;  
+}
+
+.swiper__image-4 {
+   width: 226px;  
+}
 
 #swiper-pagination {
    position: initial;
    bottom: 0;
    margin-top: 2rem;
-}
-
-.swiper .swiper-pagination-bullet-active {
-   color: black;
-   background: yellow;
 }

@@ -39,7 +39,7 @@
    line-height: 25px;
 } 
 
-.home__right__column {
+.container .home__right__column {
    margin-top: 80px;
    width: 150px;
 }

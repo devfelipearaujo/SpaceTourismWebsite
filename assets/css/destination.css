@@ -24,6 +24,7 @@
 
 .right__column {
    text-align: center;
+   margin: 0 5vw;
 }
 
 .destination__imagem {
@@ -51,7 +52,7 @@
    border-bottom: 3px solid white;
 }
 
-.sections__subtitulo{
+.destination__subtitulo{
    font-size: var(--fs-planetas);
    color: var(--branco);
    margin-bottom: .8rem;
@@ -71,7 +72,7 @@
    margin-top: 2rem;
 }
 
-.planeta .info__texto:last-child {
+.section__info .info__texto:last-child {
    margin-top: calc( 2rem - var(--fs-destination-info-valores));
 }
 
