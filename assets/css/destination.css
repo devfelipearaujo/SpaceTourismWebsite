@@ -1,6 +1,6 @@
 .principal-destination {
    background: url(../img/destination/background-destination-mobile.jpg) center/ cover no-repeat ;
-   height: 100vh;
+   height: 100%;
 }
 .sections__titulo-container {
    display: flex;

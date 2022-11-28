@@ -1,0 +1,43 @@
+.principal-tech {
+   background: url(../img/technology/background-technology-mobile.jpg) center/ cover no-repeat ;
+   height: 100%;
+}
+
+.tech__imagem {
+   width: 100%;
+   margin-top: 2rem;
+}
+
+.tech__subtitulo {
+   font-size: var(--fs-tech-subtitulo);
+   font-family: var(--ff--terciaria);
+   letter-spacing: 2.36px;
+   margin-top: 0;
+}
+
+.tech__nav__lista {
+   display: flex;
+   gap: 1rem;
+   justify-content: center;
+   margin-top: 2.13rem;
+   margin-bottom: 1.63rem;
+}
+
+.tech__nav__item {
+   font-size: var(--fs-crew-cargos);  
+   font-family: var(--ff-primaria);
+   color: var(--branco);
+   background: none;
+   border: 1px solid var(--cinza);     
+   border-radius: 50%;
+   width: 40px;
+   aspect-ratio: 1;
+   
+}
+
+.tech__nav__item-ativo {
+   color: var(--azul-escuro);
+   background: var(--branco);
+   border: 1px solid ; 
+   border-color: var(--branco);
+}

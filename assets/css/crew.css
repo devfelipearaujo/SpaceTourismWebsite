@@ -1,6 +1,6 @@
 .principal-crew {
    background: url(../img/crew/background-crew-mobile.jpg) center/ cover no-repeat ;
-   height: 100vh;
+   height: 100%;
 }
 
 .crew__left__column {
@@ -9,6 +9,9 @@
 
 .crew__subtitulo {
    font-size: var(--fs-crew-cargos);
+}
+
+.section__subtitulo {
    color: var(--branco);
    opacity: 0.5;
    margin-top: 2rem;

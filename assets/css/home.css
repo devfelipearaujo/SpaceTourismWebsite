@@ -1,6 +1,6 @@
 .principal-home {
    background: url(../img/home/background-home-mobile.jpg) center/ cover no-repeat ;
-   height: 100vh;
+   height: 100%;
 }
 
 .section {
@@ -45,14 +45,17 @@
 }
 
 .home__btn {
-   display: block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 150px;
+   aspect-ratio: 1;
    font-size: var(--fs-home-btn);
    color: var(--azul-escuro);
    text-transform: uppercase;
    text-decoration: none;
    letter-spacing: 1.25px;
    background-color: var(--branco);
-   padding: 63.5px 28.5px;
    border-radius: 50%;
 }
 
@@ -71,7 +74,7 @@
 
    .home__btn {
       font-size: calc(var(--fs-home-btn) * 1.5);
-      padding: calc(63.5px * 1.5) calc(28.5px * 1.5);
+      width: calc(150px * 1.5);
    }
 }
 

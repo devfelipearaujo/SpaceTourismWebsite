@@ -17,6 +17,7 @@
    --azul-escuro: #0B0D17;
    --azul-claro: #D0D6F9; 
    --cinza: #383B4B;
+   --borda-opaca: rgba(255, 255, 255, .5);
 
 
    /* Font-Families */
