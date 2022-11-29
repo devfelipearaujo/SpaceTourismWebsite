@@ -2,7 +2,7 @@
    width: 327px;
    height: 223px;
    margin-top: 2rem;
- }
+}
 
 .swiper__image {
    width: 177px;  
@@ -29,4 +29,35 @@
    position: initial;
    bottom: 0;
    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+   .swiper {
+      width: 550px;
+      height: 581px;
+      margin-top: 2rem;
+   }
+
+   .swiper__image {
+      width: 456px;  
+      height: 583px;
+   }
+
+   .swiper__image-2 {
+      width: 369px;  
+   }
+   
+   .swiper__image-3 {
+      width: 433px;  
+   }
+   
+   .swiper__image-4 {
+      width: 537.5px;  
+   }
+
+   #swiper-pagination {
+      position: initial;
+      bottom: 0;
+      margin-top: 2.5rem;
+   }
 }

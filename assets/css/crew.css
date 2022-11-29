@@ -29,7 +29,18 @@
 
 /* ------ Responsividade ------ */
 @media screen and (min-width: 768px){
+   .crew__container{
+      display: flex;
+      flex-direction: column-reverse;
+   }
 
+   .crew__left__column {
+      border: none;
+   }
+   
+   .crew__subtitulo {
+      margin-top: 3.7rem;
+   }
 }
 
 @media screen and (min-width: 1300px){

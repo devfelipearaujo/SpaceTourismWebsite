@@ -94,6 +94,10 @@
       background-image: url(../img/destination/background-destination-tablet.jpg);
    }
 
+   .cabecalho__container {
+      padding-bottom: 2.5rem;
+   }
+
    .sections__titulo-container {
       justify-content: left;
    }

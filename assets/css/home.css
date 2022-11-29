@@ -5,7 +5,7 @@
 }
 
 .section {
-   margin: 1rem 1.5rem 0 1.5rem;
+   margin: 0 1.5rem 0 1.5rem;
 }
 
 .container {
@@ -67,6 +67,10 @@
       height: 55px;
    }
 
+   .home__titulo {
+      margin-top: 3.7rem;
+   }
+   
    .home__right__column {
       margin-top: 80px;
       width: calc(150px * 1.5);
