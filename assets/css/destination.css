@@ -1,9 +1,11 @@
-.principal-destination {
-   background: url(../img/destination/background-destination-mobile.jpg) center/ cover no-repeat ;
-   height: 100%;
+.body-destination {
+   background-image: url(../img/destination/background-destination-mobile.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .sections__titulo-container {
    display: flex;
+   align-items: center;
    justify-content: center;
    gap: 1rem;
    font-family: var(--ff--terciaria);
@@ -84,4 +86,35 @@
 
 .hidden {
    display: none;
+}
+
+/* ------ Responsividade ------ */
+@media screen and (min-width: 768px){
+   .body-destination{
+      background-image: url(../img/destination/background-destination-tablet.jpg);
+   }
+
+   .sections__titulo-container {
+      justify-content: left;
+   }
+
+   .destination__imagem {
+      width: 300px;
+      margin-top: 3.8rem;
+   }
+
+   .destination__nav__lista {
+      margin-top: 3.3rem;
+   }
+
+   .destination__texto {
+      padding: 0 6vw;
+      padding-bottom: 3rem;
+   }
+}
+
+@media screen and (min-width: 1300px){
+   .body-destination{
+      background-image: url(../img/destination/background-destination-desktop.jpg);
+   }
 }

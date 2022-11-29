@@ -1,6 +1,7 @@
-.principal-tech {
-   background: url(../img/technology/background-technology-mobile.jpg) center/ cover no-repeat ;
-   height: 100%;
+.body-technology {
+   background-image: url(../img/technology/background-technology-mobile.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .tech__imagem {
@@ -40,4 +41,17 @@
    background: var(--branco);
    border: 1px solid ; 
    border-color: var(--branco);
+}
+
+/* ------ Responsividade ------ */
+@media screen and (min-width: 768px){
+   .body-technology {
+      background-image: url(../img/technology/background-technology-tablet.jpg);
+   }
+}
+
+@media screen and (min-width: 1300px){
+   .body-technology {
+      background-image: url(../img/technology/background-technology-desktop.jpg);
+   }
 }

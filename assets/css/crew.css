@@ -1,6 +1,7 @@
-.principal-crew {
-   background: url(../img/crew/background-crew-mobile.jpg) center/ cover no-repeat ;
-   height: 100%;
+.body-crew {
+   background-image: url(../img/crew/background-crew-mobile.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .crew__left__column {
@@ -24,4 +25,13 @@
    color: var(--branco);
    margin-bottom: 1rem;
    text-transform: uppercase;
+}
+
+/* ------ Responsividade ------ */
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 1300px){
+   
 }

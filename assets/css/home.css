@@ -1,6 +1,7 @@
-.principal-home {
-   background: url(../img/home/background-home-mobile.jpg) center/ cover no-repeat ;
-   height: 100%;
+.body-home {
+   background-image: url(../img/home/background-home-mobile.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .section {
@@ -41,7 +42,6 @@
 
 .container .home__right__column {
    margin-top: 80px;
-   width: 150px;
 }
 
 .home__btn {
@@ -60,8 +60,8 @@
 }
 
 @media screen and (min-width: 768px) {
-   .principal {
-      background: url(../img/home/background-home-tablet.jpg) center/ cover no-repeat;
+   .body-home {
+      background-image: url(../img/home/background-home-tablet.jpg);
    }
    .cabecalho {
       height: 55px;
@@ -72,15 +72,25 @@
       width: calc(150px * 1.5);
    }
 
+   .home__texto {
+      padding: 0 21vw;
+   }
+
+   .container .home__right__column {
+      margin-top: 156px;
+   }
+
    .home__btn {
       font-size: calc(var(--fs-home-btn) * 1.5);
-      width: calc(150px * 1.5);
+      width: 242px;
    }
 }
 
+/* ------ Responsividade ------ */
 @media screen and (min-width: 1300px) {
-   .principal {
-      background: url(../img/home/background-home-desktop.jpg) center/ cover no-repeat;
+   .body-home {
+      background-image: url(../img/home/background-home-desktop.jpg);
+      background-position: center;
    }
 
    .home__left__column {
