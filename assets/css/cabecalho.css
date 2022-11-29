@@ -71,10 +71,6 @@
 }
 
 @media screen and (min-width: 768px){
-   .cabecalho__container {
-      padding-bottom: 5.6rem;
-   }
-
    .menu__hamburger {
       display: none;
    }
@@ -94,7 +90,4 @@
 }
 
 @media screen and (min-width: 1300px) {
-   .cabecalho__container {
-      padding-bottom: 8rem;
-   }
 }

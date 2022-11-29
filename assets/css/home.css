@@ -68,7 +68,7 @@
    }
 
    .home__titulo {
-      margin-top: 3.7rem;
+      margin-top: 6.65rem;
    }
    
    .home__right__column {
@@ -80,12 +80,17 @@
       padding: 0 21vw;
    }
 
+   .sections__texto {
+      font-size: var(--fs-texto-regular);
+      font-family: var(--ff--secundaria);
+      line-height: 28px;
+   } 
+
    .container .home__right__column {
       margin-top: 156px;
    }
 
    .home__btn {
-      font-size: calc(var(--fs-home-btn) * 1.5);
       width: 242px;
    }
 }
@@ -105,6 +110,14 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
+   }
+
+   .home__texto {
+      padding: 0;
+   }
+
+   .home__btn {
+      width: 274px;
    }
 
 }
