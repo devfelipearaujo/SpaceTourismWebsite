@@ -83,6 +83,11 @@
    --fs-planetas: 80px;
    --fs-crew-cargos: 24px;
    --fs-nomes: 40px;
+
+   /*Swiper Custom Css*/
+   --swiper-pagination-bullet-width: 10px;
+   --swiper-pagination-bullet-height: 10px;
+   --swiper-pagination-bullet-horizontal-gap: 7px;
 }
 }
 
@@ -95,6 +100,11 @@
    --fs-crew-cargos: 32px;
    --fs-nomes: 56px;
    --fs-planetas: 100px;
+
+   /*Swiper Custom Css*/
+   --swiper-pagination-bullet-width: 15px;
+   --swiper-pagination-bullet-height: 15px;
+   --swiper-pagination-bullet-horizontal-gap: 12px;
 }
 }
 

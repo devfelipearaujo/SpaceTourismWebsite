@@ -29,6 +29,9 @@
 
 /* ------ Responsividade ------ */
 @media screen and (min-width: 768px){
+   .body-crew {
+      background-image: url(../img/crew/background-crew-tablet.jpg);
+   }
    .crew__container{
       display: flex;
       flex-direction: column-reverse;
@@ -41,8 +44,37 @@
    .crew__subtitulo {
       margin-top: 3.7rem;
    }
+
+   .crew__texto {
+      padding: 0 11vw;
+   }
 }
 
 @media screen and (min-width: 1300px){
+   .body-crew {
+      background-image: url(../img/crew/background-crew-desktop.jpg);
+   }
+
+   .crew__container {
+      flex-direction: row-reverse;
+   }
+
+   .crew__right__column {
+      margin-left: 9.9rem;
+   }
+
+   .crew__subtitulo {
+      margin-top: 9.3rem;
+      margin-bottom: 1rem;
+   }
+
+   .crew__names {
+      margin-bottom: 1.7rem;
+   }
+
+   .crew__texto {
+      padding-left: 0;
+      padding-right: 11vw;
+   }
    
 }
