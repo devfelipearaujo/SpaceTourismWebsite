@@ -101,6 +101,7 @@
       gap: 2rem;
       padding-right: 8.25rem;
       padding-left: 5.795rem;
+      padding-bottom: 0;
    }
 
    .menu__desktop__line {
@@ -118,7 +119,16 @@
    }
 
    .menu__link {
+      padding-bottom: 2.5rem;
       gap: .87rem;
+   }
+
+   .menu__link-ativo {
+      border-bottom: 3px solid var(--branco);
+   }
+
+   .menu__link:not(.menu__link-ativo):hover {
+      border-bottom: 3px solid var(--borda-opaca);
    }
 
 }

@@ -103,6 +103,10 @@
       padding-right: 7.8vw;
    }
 
+   .tech__nav__item:not(.tech__nav__item-ativo):hover {
+      border-color: var(--branco);
+   }
+
    .tech__imagem {
       content: url(../img/technology/image-launch-vehicle-portrait.jpg);
       width: 365px;
