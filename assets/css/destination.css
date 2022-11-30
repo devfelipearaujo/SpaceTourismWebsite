@@ -50,6 +50,11 @@
    text-transform: uppercase;
 }
 
+.destination__nav__item:hover {
+   padding-bottom: .5rem;
+   border-bottom: 3px solid rgba(255, 255, 255, .5);
+}
+
 .destination__nav__item-ativo {
    padding-bottom: .5rem;
    border-bottom: 3px solid white;

@@ -125,6 +125,27 @@
 
    .home__btn {
       width: 274px;
+      position: relative;
+   }
+
+   .home__btn:hover .home__btn__span-hover {
+      display: block;
+      
+   }
+
+   .home__btn__span-hover {
+      display: none;
+      width: 274px;
+      position: absolute;
+      border-radius: 50%;
+      aspect-ratio: 1;
+      opacity: .1;
+   }
+
+   .home__btn__span-hover:hover{
+      transition: .6s;
+      transform: scale(1.5);
+      background: white;
    }
 
 }
