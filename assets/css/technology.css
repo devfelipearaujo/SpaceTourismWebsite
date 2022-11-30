@@ -105,8 +105,8 @@
 
    .tech__imagem {
       content: url(../img/technology/image-launch-vehicle-portrait.jpg);
-      width: 515px;
-      height: 527px;
+      width: 365px;
+      height: 377px;
    }
 
    .technology__container .left__column .tech__imagem:nth-child(2) {
@@ -115,5 +115,13 @@
 
    .technology__container .left__column .tech__imagem:last-child {
       content: url(../img/technology/image-space-capsule-portrait.jpg);
+   }
+}
+
+@media screen and (min-width: 1440px){
+   .tech__imagem {
+      content: url(../img/technology/image-launch-vehicle-portrait.jpg);
+      width: 515px;
+      height: 527px;
    }
 }
