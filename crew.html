@@ -9,7 +9,7 @@
    <link rel="icon" href="./assets/img/favicon-32x32.png">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-   <title>Space tourism website</title>
+   <title>teste</title>
 </head>
 <body class="body-crew">
    <main>
@@ -41,40 +41,45 @@
                   <!-- Additional required wrapper -->
                   <div class="swiper-wrapper">
                      <!-- Slides -->
-                     <div class="swiper-slide"><img class="swiper__image swiper__image-1" src="./assets/img/crew/image-douglas-hurley.png" alt=""></div>
-                     <div class="swiper-slide"><img class="swiper__image swiper__image-2" src="./assets/img/crew/image-mark-shuttleworth.png" alt=""></div>
-                     <div class="swiper-slide"><img class="swiper__image swiper__image-3" src="./assets/img/crew/image-victor-glover.png" alt=""></div>
-                     <div class="swiper-slide"><img class="swiper__image swiper__image-4" src="./assets/img/crew/image-anousheh-ansari.png" alt=""></div>
+                     <div class="swiper-slide">
+                        <div class="section__info crew__info">
+                           <h3 class="crew__subtitulo section__subtitulo">commander</h3>
+                           <h4 class="crew__names">Douglas Hurley</h4>
+                           <p class="crew__texto crew__texto-1 sections__texto">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                        </div>
+                        <img class="swiper__image swiper__image-1" src="./assets/img/crew/image-douglas-hurley.png" alt="">
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="section__info crew__info">
+                           <h3 class="crew__subtitulo section__subtitulo">mission specialist</h3>
+                           <h4 class="crew__names">MARK SHUTTLEWORTH</h4>
+                           <p class="crew__texto crew__texto-2 sections__texto">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>       
+                        </div>
+                        <img class="swiper__image swiper__image-2" src="./assets/img/crew/image-mark-shuttleworth.png" alt="">
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="section__info crew__info">
+                           <h3 class="crew__subtitulo section__subtitulo">pilot</h3>
+                           <h4 class="crew__names">Victor Glover</h4>
+                           <p class="crew__texto crew__texto-3 sections__texto">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
+                        </div>
+                        <img class="swiper__image swiper__image-3" src="./assets/img/crew/image-victor-glover.png" alt="">
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="section__info crew__info">
+                           <h3 class="crew__subtitulo section__subtitulo">flight egineer</h3>
+                           <h4 class="crew__names">Anousheh Ansari</h4>
+                           <p class="crew__texto crew__texto-4 sections__texto">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. </p>
+                        </div>
+                        <img class="swiper__image swiper__image-4" src="./assets/img/crew/image-anousheh-ansari.png" alt="">
+                     </div>
+                  </div>
                   </div>
                </div>
             </div>
          </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination" id="swiper-pagination"></div>
-            <div class="crew__right__column right__column">
-               <div class="section__info">
-                  <h3 class="crew__subtitulo section__subtitulo">commander</h3>
-                  <h4 class="crew__names">Douglas Hurley</h4>
-                  <p class="crew__texto sections__texto">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
-               </div>
-               <div class="section__info hidden">
-                  <h3 class="crew__subtitulo section__subtitulo">mission specialist</h3>
-                  <h4 class="crew__names">MARK SHUTTLEWORTH</h4>
-                  <p class="crew__texto sections__texto">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
-
-               </div>
-               <div class="section__info hidden">
-                  <h3 class="crew__subtitulo section__subtitulo">pilot</h3>
-                  <h4 class="crew__names">Victor Glover</h4>
-                  <p class="crew__texto sections__texto">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
-               </div>
-               <div class="section__info hidden">
-                  <h3 class="crew__subtitulo section__subtitulo">flight egineer</h3>
-                  <h4 class="crew__names">Anousheh Ansari</h4>
-                  <p class="crew__texto sections__texto">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. </p>
-               </div>
-            </div>
-      </div>
    </section>
    </main>
 </body>
@@ -95,5 +100,4 @@ const swiper = new Swiper('.swiper', {
  });
  </script>
 <script src="./assets/js/menu.js"></script>
- <script src="./assets/js/crew.js"></script>
 </html>

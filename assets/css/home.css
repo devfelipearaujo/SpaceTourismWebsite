@@ -81,8 +81,6 @@
    }
 
    .sections__texto {
-      font-size: var(--fs-texto-regular);
-      font-family: var(--ff--secundaria);
       line-height: 28px;
    } 
 

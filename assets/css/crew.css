@@ -4,10 +4,6 @@
    background-repeat: no-repeat;
 }
 
-.crew__left__column {
-   border-bottom: 1px solid var(--cinza);
-}
-
 .crew__subtitulo {
    font-size: var(--fs-crew-cargos);
 }
@@ -15,7 +11,6 @@
 .section__subtitulo {
    color: var(--branco);
    opacity: 0.5;
-   margin-top: 2rem;
    margin-bottom: .5rem;
    text-transform: uppercase;
 }
@@ -27,27 +22,40 @@
    text-transform: uppercase;
 }
 
+.crew__info {
+   border-top: 1px solid var(--cinza);
+   padding-top: 4.6rem;
+}
+
 /* ------ Responsividade ------ */
 @media screen and (min-width: 768px){
    .body-crew {
       background-image: url(../img/crew/background-crew-tablet.jpg);
    }
-   .crew__container {
-      display: flex;
-      flex-direction: column-reverse;
-      position: relative;
+
+   .crew__info {
+      border: none;
+      padding-top: 0;
    }
 
-   .crew__left__column {
-      border: none;
-   }
-   
    .crew__subtitulo {
-      margin-top: 3.7rem;
+      margin-top: .8rem;
    }
 
    .crew__texto {
-      padding: 0 11vw;
+      padding: 0 7vw;
+   }
+
+   .crew__texto-2 {
+      padding: 0 14vw;
+   }
+
+   .crew__texto-3 {
+      padding: 0 8vw;
+   }
+
+   .crew__texto-4 {
+      padding: 0 13.5vw;
    }
 }
 
@@ -56,22 +64,22 @@
       background-image: url(../img/crew/background-crew-desktop.jpg);
    }
 
-   .crew__container {
-      flex-direction: row-reverse;
-   }
-
    .swiper__container {
-      width: 50%;
+      width: 100%;
    }
 
-   .crew__right__column {
+    .crew__info {
       width: 50%;
       margin-left: 9.9rem;
-      margin-right: 0;
+   }
+
+
+   .slide__info-4 {
+      padding-right: 3vw
    }
 
    .crew__subtitulo {
-      margin-top: 5.3rem;
+      margin-top: 0;
       margin-bottom: 1rem;
    }
 
@@ -81,14 +89,22 @@
 
    .crew__texto {
       padding-left: 0;
-      padding-right: 11vw;
+      padding-right: 19vw;
+   }   
+
+   .crew__texto-4 {
+      padding-right: 19.65vw;
    }
-   
 }
 
 @media screen and (min-width: 1440px){
-   .crew__subtitulo {
-      margin-top: 9.3rem;
-   }
-   
+
+   .crew__texto {
+      padding-left: 0;
+      padding-right: 15vw;
+   }   
+
+   .crew__texto-4 {
+      padding-right: 11.55vw;
+   } 
 }
