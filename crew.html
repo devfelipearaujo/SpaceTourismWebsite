@@ -9,7 +9,7 @@
    <link rel="icon" href="./assets/img/favicon-32x32.png">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-   <title>teste</title>
+   <title>Space tourism website</title>
 </head>
 <body class="body-crew">
    <main>
@@ -79,7 +79,7 @@
             </div>
          </div>
             <!-- If we need pagination -->
-            <div class="swiper-pagination" id="swiper-pagination"></div>
+            <div class="swiper-pagination swiper-pagination-clickable" id="swiper-pagination"></div>
    </section>
    </main>
 </body>
@@ -94,8 +94,9 @@ const swiper = new Swiper('.swiper', {
  
    // If we need pagination
    pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
+   el: '.swiper-pagination',
+   type: 'bullets',
+   clickable: true,
   },
  });
  </script>

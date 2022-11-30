@@ -127,10 +127,6 @@
       aspect-ratio: 1;
       height: auto;
    }
-
-   .swiper-pagination-bullet:hover {
-      cursor: pointer;
-   }
 }
 
 @media screen and (min-width: 1440px) {
