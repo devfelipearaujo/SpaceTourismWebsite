@@ -63,11 +63,101 @@
 }
 
 @media screen and (min-width: 1300px) {
+   .swiper {
+      width: 416px;
+      height: 470px;
+      margin-top: 0;
+   }
+
+   .swiper:hover {
+      cursor: grab;
+   }
+
+   .swiper:active {
+      cursor: grabbing;
+   }
+
+   .swiper__image {
+      width: 320px;  
+      height: 498px;
+   }
+
+   .swiper__image-2 {
+      width: 250px;
+      height: 454px; 
+      margin-top: 2.7rem; 
+   }
+   
+   .swiper__image-3 {
+      width: 354; 
+      height: 461; 
+   }
+   
+   .swiper__image-4 {
+      width: 415px;
+      height: 407px;  
+      margin-top: 5.55rem;
+   }
+
    #swiper-pagination {
       position: absolute;
       display: inherit;
+      width: 50vw;
       bottom: 94px;
-      left: 177px;
+      left: 150px;
+      margin-top: 2.5rem;
+   }
+
+   .swiper-pagination-bullet {
+      width: 15px;
+      aspect-ratio: 1;
+      height: auto;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .swiper {
+      width: 616px;
+      height: 657px;
+      margin-top: 0;
+   }
+
+   .swiper:hover {
+      cursor: grab;
+   }
+
+   .swiper:active {
+      cursor: grabbing;
+   }
+
+   .swiper__image {
+      width: 520px;  
+      height: 698px;
+   }
+
+   .swiper__image-2 {
+      width: 450px;
+      height: 654px; 
+      margin-top: 2.7rem; 
+   }
+   
+   .swiper__image-3 {
+      width: 554; 
+      height: 661; 
+   }
+   
+   .swiper__image-4 {
+      width: 615px;
+      height: 607px;  
+      margin-top: 5.55rem;
+   }
+
+   #swiper-pagination {
+      position: absolute;
+      display: inherit;
+      width: 50vw;
+      bottom: 94px;
+      left: 150px;
       margin-top: 2.5rem;
    }
 

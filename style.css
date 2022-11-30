@@ -18,6 +18,7 @@
    --azul-claro: #D0D6F9; 
    --cinza: #383B4B;
    --borda-opaca: rgba(255, 255, 255, .5);
+   --linha-menu-opaca: rgba(255, 255, 255, .25);
 
 
    /* Font-Families */
@@ -91,7 +92,7 @@
 }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1440px) {
 :root {
    --fs-nav: 16px;
    --fs-home-titulo-menor: 28px;

@@ -15,12 +15,10 @@
    color: var(--azul-claro);
 }
 
-.menu__span {
-   margin-right: 1rem;
-}
-
 .menu__link {
    font-family: var(--ff--terciaria);
+   display: flex;
+   gap: 1rem;
    letter-spacing: 2.36px;
    text-transform: uppercase;
    text-decoration: none;
@@ -60,16 +58,18 @@
       z-index: 9999;
    }
 
-   .menu__lista li {
+   .menu__link {
       margin-left: 2rem;
-   }
-
-   .menu__lista li:nth-child(2) .menu__span {
-      margin-right: 1.15rem;
+      gap: .7rem;
    }
 }
 
 @media screen and (min-width: 768px){
+   .logo {
+      width: 48px;
+      margin-left: 55px;
+   }
+
    .menu__hamburger {
       display: none;
    }
@@ -81,6 +81,9 @@
       padding: 2.5rem;
    }
 
+   .menu__link {
+      gap: .67rem;
+   }
 
    .menu__span {
       display: none;
@@ -89,4 +92,51 @@
 }
 
 @media screen and (min-width: 1300px) {
+   .cabecalho__container {
+      margin-top: 1.5rem;
+      position: relative;
+   }
+
+   .menu__lista {
+      gap: 2rem;
+      padding-right: 8.25rem;
+      padding-left: 5.795rem;
+   }
+
+   .menu__desktop__line {
+      position: absolute;
+      display: block;
+      height: 1px;
+      width: 473px;
+      background: var(--linha-menu-opaca);
+      top: 50%;
+      left: -62%;
+   }
+
+   .menu__span {
+      display: block;
+   }
+
+   .menu__link {
+      gap: .87rem;
+   }
+
+}
+
+@media screen and (min-width: 1440px) {
+   .cabecalho__container {
+      margin-top: 2.5rem;
+   }
+
+   .menu__lista {
+      gap: 3rem;
+      padding-right: 10.25rem;
+      padding-left: 7.795rem;
+   }
+
+   .menu__desktop__line {
+      width: 473px;
+      left: -53%;
+   }
+
 }

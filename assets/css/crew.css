@@ -32,9 +32,10 @@
    .body-crew {
       background-image: url(../img/crew/background-crew-tablet.jpg);
    }
-   .crew__container{
+   .crew__container {
       display: flex;
       flex-direction: column-reverse;
+      position: relative;
    }
 
    .crew__left__column {
@@ -59,12 +60,18 @@
       flex-direction: row-reverse;
    }
 
+   .swiper__container {
+      width: 50%;
+   }
+
    .crew__right__column {
+      width: 50%;
       margin-left: 9.9rem;
+      margin-right: 0;
    }
 
    .crew__subtitulo {
-      margin-top: 9.3rem;
+      margin-top: 5.3rem;
       margin-bottom: 1rem;
    }
 
@@ -75,6 +82,13 @@
    .crew__texto {
       padding-left: 0;
       padding-right: 11vw;
+   }
+   
+}
+
+@media screen and (min-width: 1440px){
+   .crew__subtitulo {
+      margin-top: 9.3rem;
    }
    
 }

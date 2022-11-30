@@ -67,7 +67,7 @@
       height: 55px;
    }
 
-   .home__titulo {
+   .home__container {
       margin-top: 6.65rem;
    }
    
@@ -99,7 +99,6 @@
 @media screen and (min-width: 1300px) {
    .body-home {
       background-image: url(../img/home/background-home-desktop.jpg);
-      background-position: center;
    }
 
    .home__left__column {
@@ -112,12 +111,30 @@
       align-items: center;
    }
 
+   .home__container {
+      margin-top: 2rem;
+   }
+
    .home__texto {
       padding: 0;
    }
+
+   .sections__texto {
+      line-height: 32px;
+   } 
 
    .home__btn {
       width: 274px;
    }
 
+}
+
+@media screen and (min-width: 1440px) {
+   .body-home {
+      background-image: url(../img/home/background-home-desktop.jpg);
+   }
+
+   .home__container {
+      margin-top: 10rem;
+   }
 }

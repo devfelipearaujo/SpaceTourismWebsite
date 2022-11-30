@@ -122,7 +122,7 @@
 
    .sections__titulo-container {
       justify-content: left;
-      margin-top: 4.75rem;
+      margin-top: 2.75rem;
       margin-left: 10rem;
    }
 
@@ -135,7 +135,7 @@
    }
 
    .destination__imagem {
-      width: 445px;
+      width: 345px;
       margin-top: 3.8rem;
    }
 
@@ -159,6 +159,7 @@
    .destination__texto {
       padding-left: 0;
       padding-right: 0;
+      padding-bottom: 1.5rem;
    }
 
    .info__texto {
@@ -167,5 +168,21 @@
 
    .section__info .info__texto:last-child {
       margin-left: 4.79rem;
+   }
+}
+
+@media screen and (min-width: 1440px){
+
+   .sections__titulo-container {
+      margin-top: 4.75rem;
+   }
+
+   .destination__imagem {
+      width: 445px;
+      margin-top: 3.8rem;
+   }
+
+   .destination__texto {
+      padding-bottom: 3rem;
    }
 }
